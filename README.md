@@ -1,6 +1,5 @@
 # Relais Manager
 
----------
 
 ### Installation
 1. Téléchargez le zip du repository
@@ -8,6 +7,7 @@
 3. Inclure ```#include <RelaisManager>``` dans votre programme Arduino
 4. Redémarrez Arduino IDE
 5. Vous pouvez désormais utiliser le Relais Manager !
+
 
 ### Api
 1. ```RelaisManager relais_one(1, 9)``` ceci va initialiser une instance avec les pin 1 en allumage et 9 en extinction
