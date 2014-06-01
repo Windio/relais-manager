@@ -12,12 +12,14 @@ RelaisManager::RelaisManager (int pinOn, int pinOff)
 
 void RelaisManager::on ()
 {
-    digitalWrite(_pinOff, LOW);
     digitalWrite(_pinOn, HIGH);
+    delai(30);
+    digitalWrite(_pinOn, LOW);
 }
 
 void RelaisManager::off ()
 {
-    digitalWrite(_pinOn, LOW);
     digitalWrite(_pinOff, HIGH);
+    delai(30);
+    digitalWrite(_pinOff, LOW);
 }
